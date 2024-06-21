@@ -1,0 +1,381 @@
+.pages_dashboard_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_field_container {
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+.search_icon_position {
+    position: absolute;
+    left: 8%;
+    top: 39%;
+}
+
+.header_icons {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.header_input_field {
+    border-radius: 49px;
+    border: 0px;
+    background-color: #F4F7FE;
+    padding: 10px 0px 10px 44px;
+}
+
+.small_cards_conainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 248px;
+    height: 90px;
+}
+
+.small_cards_conainer+.small_cards_conainer {
+    margin-left: 10px;
+}
+
+.trade_icon_bg {
+    background-color: #F4F7FE;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.card_earnings_span {
+    color: #A3AED0;
+    font-size: 14px;
+}
+
+.cards_price_head {
+    color: #2B3674;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.small_cards_conainer_3 {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 248px;
+    height: 90px;
+}
+
+.small_cards_conainer_4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 248px;
+    height: 90px;
+}
+
+.last_month_para {
+    color: #A3AED0;
+    font-size: 12px;
+}
+
+.percent_span {
+    color: #05CD99;
+    font-weight: 700;
+}
+
+.small_all_cards_main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down_arrow_img_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calender_icon_sec {
+    background-color: #f1f0f0;
+    border-radius: 7px;
+    padding: 5px 25px;
+    position: relative;
+    font-size: 14px;
+}
+
+.flow_charts_section, .check_table_section, .daily_traffic_bar_graphs, .pie_chart_container,
+.tasks_checkbox_container, .final_cards_container,.final_cards_container_2, .final_cards_container_3 {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.calender_icon_style {
+    position: absolute;
+    top: 27%;
+    left: 5%;
+}
+
+.total_spent_span {
+    color: #A3AED0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.total_spent_green {
+    color: #05CD99;
+}
+
+.circle_check_icon_style {
+    margin-right: 10px;
+    color: #05CD99;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.lineChart_container {
+    width: 100%;
+}
+
+.linechart_left_container {
+    width: 500px;
+}
+
+.line_chart_images_container {
+    width: 300px;
+}
+
+.line_chart_images {
+    width: 290px;
+}
+
+.months_para {
+    font-size: 12px;
+    font-weight: 500;
+    color: #A3AED0;
+}
+
+.months_para+.months_para {
+    margin-left: 30px;
+}
+
+.weekly_revenue {
+    font-size: 24px;
+    color: #1B2559;
+    font-weight: 700;
+}
+
+
+.check_table_header {
+    font-size: 24px;
+    color: #2B3674;
+    font-weight: 700;
+}
+.common_bg_style {
+    background-color: #F4F7FE;
+    border-radius: 12px;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+}
+
+.common_table_head_style {
+    color: #A3AED0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.common_table_desc_td {
+    font-size: 14px;
+    color: #2B3674;
+    font-weight: 700;
+}
+
+.table_border_style {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.daily_traffic_span, .daily_traffic {
+    font-size: 14px;
+    color: #A3AED0;
+    font-weight: 500;
+}
+
+.daily_traffic_inc_span {
+    font-size: 12px;
+    color: #05CD99;
+    font-weight: 700;
+}
+
+
+.daily_traffic_main_head {
+    font-size: 34px;
+    color: #2B3674;
+    font-weight: 700;
+}
+
+.pie_chart_your_files_sec {
+    box-shadow: 0px 8px 12px #d5dde5;
+    border-radius: 15px;
+}
+
+.your_files_span {
+    font-size: 12px;
+    color:#A3AED0;
+    font-weight: 500;
+    position: relative;
+}
+
+.your_files_span::before, .additional_files_span::before {
+    position: absolute;
+    content: '';
+    top: 30%;
+    left: -22%;
+    width: 8px;
+    height: 8px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.additional_files_span::before {
+    background-color: red;
+    left: -25%;
+}
+
+.your_files_percentage {
+    font-size: 18px;
+    color: #2B3674;
+}
+
+.approved_circle_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.tasks_checkbox {
+    background-color: #EFF4FB;
+}
+
+.common_checkbox_tasks_label, .common_checkbox_tasks_label_2 {
+    font-size: 16px;
+    color: #A3AED0;
+    font-weight: 500;
+}
+
+.common_checkbox_tasks_label_2 {
+    color: #2B3674;
+}
+
+.business_design_span {
+    color: #A3AED0;    
+    font-size: 12px;
+}
+
+.new_lession_is_available {
+    font-size: 16px;
+    color: #2B3674;
+}
+.what_do_you_need_head {
+    font-size: 16px;
+    color: #2B3674;
+}
+
+.stop_watch_icon_span {
+    color: #2B3674;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.final_card_bottom_container {
+    background-color: #FAFCFE;
+}
+.bottom_images_avatar_1 {
+    width: 28px;
+    height: 28px;
+}
+.bottom_images_avatar_2, .bottom_images_avatar_3, .bottom_images_avatar_4, .bottom_images_avatar_5 {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 28px;
+    height: 28px;
+}
+.bottom_images_avatar_3 {
+    left: 90%;
+}
+.bottom_images_avatar_4 {
+    left: 140%;
+}
+.bottom_images_avatar_5 {
+    left: 190%;
+}
+.bottom_card_button {
+    font-size: 14px;
+    background-color: #4318FF;
+    border-radius: 16px;
+}
+
+.team_members_head {
+    font-size: 18px;
+    color: #2B3674;
+}
+.common_botton_sec_head {
+    font-size: 16px;
+    color: #2B3674;
+}
+.common_botton_sec_span {
+    font-size: 12px;
+    color: #A3AED0;
+}
+
+.control_card_property_head {
+    font-size: 20px;
+    color: #2B3674;
+}
+
+.discover_our_card_para {
+    font-size: 14px;
+    color: #A3AED0;
+}
+
+.common_bottom_card_bg {
+    box-shadow: 0px 1px 12px #d9dbdd;
+    border-radius: 16px;
+}
+
+.star_bucks_profile_img, .faClock_icon_bg {
+    position: absolute;
+    left: 5%;
+    top: 70%;
+}
+
+.cashback_span {
+    color: #A3AED0;
+    font-size: 16px;
+}
+
+.faClock_icon_bg {
+    background-color: rgb(151, 156, 151);
+    color: white;
+    border-radius: 12px;
+    top: 5%;
+    left: 75%;
+    width: 43px;
+    height: 43px;
+}
+
+.card_images_person_img {
+    width: 35px;
+    height: 35px;
+}

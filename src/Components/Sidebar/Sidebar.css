@@ -1,0 +1,50 @@
+.sidebar_icons_positions {
+    position: absolute;
+    right: -4%;
+    top: 0;
+}
+
+.show_hide_button {
+    position: absolute;
+    right: 5%;
+    top: 0;
+    z-index: 10000;
+    transition: left 1s ease-in;
+  }
+  
+.horizon_sidebar_head {
+    font-size: 26px;
+    color: #2B3674;
+    margin: 0 auto;
+}
+
+.nav_links_style {
+    font-size: 16px;
+    color: #A3AED0 !important;
+}
+
+.rounded_eclipse_pos {
+    position: absolute;
+    left: 10%;
+    top: -35%;
+}
+
+.get_pro_vector_pos {
+    position: absolute;
+    left:39%;
+    top: -9%;
+}
+
+.upgrade_pro_sec {
+    background: linear-gradient(320deg,#4318FF 30%,#868CFF 100%);
+    color: #FFFFFF;
+    border-radius: 24px;
+    height: 200px;
+}
+
+.active {
+    color: #2B3674 !important;
+}
+.home_icon {
+    color: #4318FF;
+}
