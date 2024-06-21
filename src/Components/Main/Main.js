@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Main.css"
-import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
 import LineChart from '../LineChart/LineChart'
 import BarGraph from '../BarGraph/BarGraph'
 import DailyBarGraph from "../DailyBarGraph/DailyBarGraph"
@@ -24,14 +24,14 @@ import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons/faEllipsis
 
 export default function Main() {
   return (
-    <Container className='m-0'>
+    <section className='mx-2 w-100'>
     <main className='p-3'>
         <section className='d-flex justify-content-between flex-wrap align-items-center'>
             <div >
                 <span>Pages / Dashboard</span>
                 <h1>Main Dashboard</h1>
             </div>
-            <div className='input_field_container'>
+            <div className='d-flex justify-content-between flex-wrap align-items-center input_field_container'>
                 <div>
                     <input type='text' className='header_input_field' placeholder='Search'/>
                     <FontAwesomeIcon icon={faMagnifyingGlass} className='search_icon_position'/>
@@ -42,46 +42,46 @@ export default function Main() {
                 <img src='images/Avatar.png' className='header_icons'/>
             </div>
         </section>
-        <section className='small_all_cards_main_container'>
-            <div className='small_cards_conainer p-2 ml-1'>
+        <section className='d-flex justify-content-between flex-wrap flex-xl-nowrap flex-lg-wrap flex-md-wrap flex-sm-wrap align-items-center'>
+            <div className='d-flex align-items-center small_cards_conainer p-2 ml-1'>
                 <img className='trade_icon_bg p-1 m-3' src='images/trade_icon.png'/>
                 <div>
                     <span className='card_earnings_span'>Earnings</span>
                     <h3 className='cards_price_head'>$350.4</h3>
                 </div>
             </div>
-            <div className='small_cards_conainer p-2'>
+            <div className='d-flex align-items-center small_cards_conainer p-2'>
                 <img className='trade_icon_bg p-1 m-3' src='images/doller_icon.png'/>
                 <div>
                     <span className='card_earnings_span'>Spend this month</span>
                     <h3 className='cards_price_head'>$642.39</h3>
                 </div>
             </div>
-            <div className='small_cards_conainer small_cards_conainer_3 p-2'>
+            <div className='d-flex align-items-center small_cards_conainer small_cards_conainer_3 p-2'>
                 <div className='ml-3'>
                     <span className='card_earnings_span'>Sales</span>
                     <h3 className='cards_price_head pl-2'>$574.34</h3>
                     <p className='last_month_para'><span className='percent_span'>+23% </span>since last month</p>
                 </div>
             </div>
-            <div className='small_cards_conainer small_cards_conainer_4 p-2'>
+            <div className='d-flex jusify-content-around align-items-center small_cards_conainer small_cards_conainer_4 p-2'>
                 <div>
                     <span className='card_earnings_span'>Your balance</span>
                     <h3 className='cards_price_head'>$1000</h3>
                 </div>
-                <div className='down_arrow_img_sec'>
+                <div className='d-flex justify-content-center align-items-center'>
                     <img className='trade_icon_bg p-1 m-3' src='images/ellipse_icon.png'/>
                     <FontAwesomeIcon icon={faChevronDown}/>
                 </div>
             </div>
-            <div className='small_cards_conainer p-2'>
+            <div className='d-flex align-items-center small_cards_conainer p-2'>
                 <img className='trade_icon_bg p-1 m-3' src='images/tasks_icon.png'/>
                 <div>
                     <span className='card_earnings_span'>New tasks</span>
                     <h3 className='cards_price_head'>154</h3>
                 </div>
             </div>
-            <div className='small_cards_conainer p-2'>
+            <div className='d-flex align-items-center small_cards_conainer p-2'>
                 <img className='trade_icon_bg p-2 m-3' src='images/file_icon.png'/>
                 <div>
                     <span className='card_earnings_span'>Total projects</span>
@@ -469,7 +469,7 @@ export default function Main() {
         </Row>
         </section>
     </main>
-    </Container>
+    </section>
     
   )
 }

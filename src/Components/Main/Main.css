@@ -1,16 +1,8 @@
-.pages_dashboard_container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .input_field_container {
     padding: 10px;
     background-color: #FFFFFF;
     border-radius: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: relative;
     top: 0;
 }
@@ -34,9 +26,6 @@
 }
 
 .small_cards_conainer {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     background-color: #FFFFFF;
     border-radius: 20px;
     width: 248px;
@@ -73,9 +62,6 @@
 }
 
 .small_cards_conainer_4 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: #FFFFFF;
     border-radius: 20px;
     width: 248px;
@@ -92,17 +78,6 @@
     font-weight: 700;
 }
 
-.small_all_cards_main_container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.down_arrow_img_sec {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .calender_icon_sec {
     background-color: #f1f0f0;
